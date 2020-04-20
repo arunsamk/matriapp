@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/register', 'MusersController@registerview');
+
+Route::get('/about', 'MusersController@aboutview');
+
+Route::get('/profile', 'MusersController@profileview');
