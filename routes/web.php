@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Get Requests
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -21,3 +23,9 @@ Route::get('/register', 'MusersController@registerview');
 Route::get('/about', 'MusersController@aboutview');
 
 Route::get('/profile', 'MusersController@profileview');
+
+Route::get('/login', 'MusersController@loginview');
+
+// Post Request
+
+Route::post('/register', 'MusersController@userstore');

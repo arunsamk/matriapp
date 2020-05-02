@@ -2,6 +2,6 @@
 
 @section('content')
 <div>
-<h1>Brief Description</h1>
+    <h1>Brief Description</h1>
 </div>
 @endsection
